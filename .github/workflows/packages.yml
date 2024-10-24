@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE: lorisleiva/laravel-docker
+  IMAGE: ${{ github.repository }}
 
 jobs:
   docker:
